@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  max-width: 1440px;
+}
+
+main {
+  display: flex;
+  max-width: 800px;
+  max-height: 500px;
+  margin: 100px 0px 0px 250px;
+}
+
+.sedans {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sedans img {
+  max-width: 60px;
+}
+
+.sedans h1 {
+  font-size: 35px;
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.sedans p {
+  width: 200px;
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.sedans a {
+  margin-top: 70px;
+  display: flex;
+  font-family: 'Lexend Deca';
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
+  height: 50px;
+  text-decoration: none;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.sedans a:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+
+
+.suvs {
+  display: flex;
+  width: 700px;
+  background-color: hsl(184, 100%, 22%);
+  flex-direction: column;
+  padding: 40px;
+}
+
+.suvs img {
+  max-width: 60px;
+}
+
+.suvs h1 {
+  font-size: 35px;
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.suvs p {
+  width: 210px;
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.suvs a {
+  margin-top: 70px;
+  display: flex;
+  font-family: 'Lexend Deca';
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
+  height: 50px;
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.suvs a:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+  width: 700px;
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.luxury img {
+  max-width: 60px;
+}
+
+.luxury h1 {
+  font-size: 35px;
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.luxury p {
+  width: 220px;
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.luxury a {
+  margin-top: 70px;
+  display: flex;
+  font-family: 'Lexend Deca';
+  align-items: center;
+  justify-content: center;
+  max-width: 160px;
+  height: 50px;
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.luxury a:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
